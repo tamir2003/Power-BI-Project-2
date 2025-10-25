@@ -56,6 +56,8 @@ TX, NY & CA contribute 68% of overall revenue
 Activation rate: 57.5%
 
 Delinquent rate: 6.06%
+<img width="1364" height="663" alt="Screenshot 2025-10-15 193514" src="https://github.com/user-attachments/assets/54e0ceb2-1d7d-4e0e-a280-0e7b90a2bb4f" />
+
 
 📈 Dashboard Features
 
