@@ -35,10 +35,6 @@ Week-over-Week (WoW) Changes:
 
 Revenue increased by 28.8%
 
-Total transaction amount & count increased (xx% & xx%)
-
-Customer count increased by (xx%)
-
 Year-to-Date (YTD) Overview:
 
 Overall revenue: $57M
