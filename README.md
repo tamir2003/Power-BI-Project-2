@@ -56,7 +56,9 @@ Total transactions: $46M
 
 <img width="964" height="72" alt="Screenshot 2025-10-25 180122" src="https://github.com/user-attachments/assets/d581be83-9fc4-4e96-854a-c5c6872e9cd4" />
 
+
 <img width="964" height="66" alt="Screenshot 2025-10-25 180206" src="https://github.com/user-attachments/assets/28294255-8515-49ff-b0ce-3d971144053b" />
+
 
 <img width="964" height="95" alt="Screenshot 2025-10-25 180251" src="https://github.com/user-attachments/assets/06aaef57-eaba-4ec0-a29c-66a09a356f09" />
 
