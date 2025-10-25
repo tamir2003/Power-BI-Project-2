@@ -14,7 +14,7 @@ Dataset: Credit card transactions dataset (weekly data)
 
 Duration: Week 53 (ending 31st Dec)
 
-Metrics Analyzed:
+--------------Metrics Analyzed:-----------
 
 Revenue
 
@@ -31,11 +31,11 @@ Activation and delinquency rates
 
 💡 Key Insights
 
-Week-over-Week (WoW) Changes:
+------------Week-over-Week (WoW) Changes:------------
 
 Revenue increased by 28.8%
 
-Year-to-Date (YTD) Overview:
+--------------Year-to-Date (YTD) Overview:------------------
 
 Overall revenue: $57M
 
@@ -43,11 +43,11 @@ Total interest: $8M
 
 Total transactions: $46M
 
-Male vs Female contribution: $31M vs $26M
+-----------Male vs Female contribution: $31M vs $26M-----------
 
-Blue & Silver credit cards contribute 93% of transactions
+------------Blue & Silver credit cards contribute 93% of transactions---------
 
-TX, NY & CA contribute 68% of overall revenue
+-----------------TX, NY & CA contribute 68% of overall revenue---------------
 
 Activation rate: 57.5%
 
