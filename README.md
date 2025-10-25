@@ -8,7 +8,7 @@ To develop a comprehensive credit card weekly dashboard that provides real-time 
 
 📊 Project Overview
 
-Tools Used: Power BI / Tableau / Excel / SQL / Python (mention your stack)
+Tools Used: Power BI / SQL 
 
 Dataset: Credit card transactions dataset (weekly data)
 
@@ -52,16 +52,25 @@ Total transactions: $46M
 ------------------Delinquent rate: 6.06%---------------------
 
 ========DAX============
-<img width="964" height="143" alt="Screenshot 2025-10-25 180100" src="https://github.com/user-attachments/assets/60055d14-53b6-4817-8760-acffaff9d564" />
 
-<img width="964" height="72" alt="Screenshot 2025-10-25 180122" src="https://github.com/user-attachments/assets/d581be83-9fc4-4e96-854a-c5c6872e9cd4" />
+--AgeGroup = SWITCH(TRUE(),
+ customer[Customer_Age]<=30, "20-30",
+ customer[Customer_Age]>=30 && customer[Customer_Age]<40, "31-40",
+ customer[Customer_Age]>=40 && customer[Customer_Age]<50, "41-50",
+ customer[Customer_Age]>=50 && customer[Customer_Age]<60, "51-60",
+ customer[Customer_Age]>=60, "60+"
+)
+--IncomeGroup = SWITCH(TRUE(),
+ customer[Income]<=35000, "Low",
+ customer[Income]>35000 && customer[Income]<=70000, "Medium",
+ customer[Income]>70000, "High", "Unknown"
+)
 
+--previous_week_revenue = CALCULATE(SUM(credit_card[Revenue]),
+ FILTER(ALL(credit_card), credit_card[Week_Num]=MAX(credit_card[Week_Num])-1)
+)
 
-<img width="964" height="66" alt="Screenshot 2025-10-25 180206" src="https://github.com/user-attachments/assets/28294255-8515-49ff-b0ce-3d971144053b" />
-
-
-<img width="964" height="95" alt="Screenshot 2025-10-25 180251" src="https://github.com/user-attachments/assets/06aaef57-eaba-4ec0-a29c-66a09a356f09" />
-
+--wow_change = DIVIDE([current_week], [previous_week_revenue], [previous_week_revenue])
 
 
 📈 Dashboard Features
