@@ -104,6 +104,17 @@ To develop a comprehensive **credit card weekly dashboard** that provides real-t
 - Delinquent rate: **6.06%**
 
 ---
+📈 Dashboard Features
+
+Interactive filters for region, card type, and customer demographics
+Dynamic KPI cards showing revenue, transactions, and interest
+Trend lines for WoW performance
+State-level contribution map visualization
+
+
+<img width="1365" height="627" alt="Screenshot 2025-10-15 193622" src="https://github.com/user-attachments/assets/c968e1d0-67dc-4733-a5d8-85b57ff58d38" />
+
+<img width="1364" height="663" alt="Screenshot 2025-10-15 193514" src="https://github.com/user-attachments/assets/54e0ceb2-1d7d-4e0e-a280-0e7b90a2bb4f" />
 
 ### 🧮 DAX Measures  
 
@@ -143,15 +154,5 @@ CALCULATE(
 wow_change = 
 DIVIDE([current_week], [previous_week_revenue], [previous_week_revenue])
 
-📈 Dashboard Features
 
-Interactive filters for region, card type, and customer demographics
-Dynamic KPI cards showing revenue, transactions, and interest
-Trend lines for WoW performance
-State-level contribution map visualization
-
-
-<img width="1365" height="627" alt="Screenshot 2025-10-15 193622" src="https://github.com/user-attachments/assets/c968e1d0-67dc-4733-a5d8-85b57ff58d38" />
-
-<img width="1364" height="663" alt="Screenshot 2025-10-15 193514" src="https://github.com/user-attachments/assets/54e0ceb2-1d7d-4e0e-a280-0e7b90a2bb4f" />
 
